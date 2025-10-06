@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse open healthcare positions at GensHealthcare. Find your next nursing, physician, allied health, or administrative role."
+    />
+    <title>Open Positions - GensHealthcare</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-container">
+        <div class="logo">
+          <a href="index.html"
+            ><span class="logo-excel">Gens</span
+            ><span class="logo-staff">Healthcare</span></a
+          >
+        </div>
+        <nav class="nav">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="positions.html" class="active">Positions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="header-cta">
+            <a href="contact.html#candidate-form" class="btn btn-primary"
+              >I'm a Candidate</a
+            >
+            <a href="contact.html#employer-form" class="btn btn-secondary"
+              >I'm a Business</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero hero-innerbanner">
+      <img
+        src="attached_assets/stock_images/heart-pulse1.svg"
+        alt="Healthcare team"
+        width="200"
+        class="hero-innerbanner-image"
+      />
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Open Positions</h1>
+            <p class="subhead">Find your next healthcare career opportunity</p>
+          </div>
+          <div class="hero-images">
+            <!-- <img
+              src="attached_assets/stock_images/nurse_healthcare_wor_5e9e12ce.jpg"
+              alt="Healthcare professional"
+              class="hero-image"
+            /> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Job Filters -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="job-filters">
+          <h3 style="margin-bottom: 1rem">Search & Filter Positions</h3>
+          <form class="filter-group">
+            <div class="form-group" style="margin-bottom: 0">
+              <label for="search" class="form-label">Keyword</label>
+              <input
+                type="text"
+                id="search"
+                class="form-input"
+                placeholder="Job title, specialty..."
+                aria-label="Search by keyword"
+              />
+            </div>
+            <div class="form-group" style="margin-bottom: 0">
+              <label for="location" class="form-label">Location</label>
+              <input
+                type="text"
+                id="location"
+                class="form-input"
+                placeholder="City, State, ZIP..."
+                aria-label="Search by location"
+              />
+            </div>
+            <div class="form-group" style="margin-bottom: 0">
+              <label for="specialty" class="form-label">Specialty</label>
+              <select
+                id="specialty"
+                class="form-select"
+                aria-label="Filter by specialty"
+              >
+                <option value="">All Specialties</option>
+                <option value="nursing">Nursing</option>
+                <option value="physician">Physician</option>
+                <option value="allied">Allied Health</option>
+                <option value="tech">Technician</option>
+                <option value="admin">Administrative</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Job Listings -->
+    <section class="section">
+      <div class="container">
+        <h2 style="margin-bottom: 2rem">Current Opportunities</h2>
+        <div class="cards-grid">
+          <!-- Job 1 -->
+          <div class="job-card">
+            <div class="job-header">
+              <h3 class="job-title">Registered Nurse - ICU</h3>
+            </div>
+            <div class="job-meta">
+              <span class="job-badge">Nursing</span>
+              <span class="job-badge">Full-Time</span>
+              <span class="job-badge">Boston, MA</span>
+            </div>
+            <p class="job-description">
+              Seeking experienced ICU RN for leading hospital. Must have 2+
+              years ICU experience, current RN license, BLS and ACLS
+              certification. Competitive salary and benefits package.
+            </p>
+            <a href="contact.html#candidate-form" class="btn btn-primary"
+              >Apply Now</a
+            >
+          </div>
+
+          <!-- Job 2 -->
+          <div class="job-card">
+            <div class="job-header">
+              <h3 class="job-title">Emergency Medicine Physician</h3>
+            </div>
+            <div class="job-meta">
+              <span class="job-badge">Physician</span>
+              <span class="job-badge">Locum Tenens</span>
+              <span class="job-badge">Denver, CO</span>
+            </div>
+            <p class="job-description">
+              Board-certified EM physician needed for 3-month locum assignment.
+              Level II trauma center. Excellent compensation, housing, and
+              travel allowance provided.
+            </p>
+            <a href="contact.html#candidate-form" class="btn btn-primary"
+              >Apply Now</a
+            >
+          </div>
+
+          <!-- Job 3 -->
+          <div class="job-card">
+            <div class="job-header">
+              <h3 class="job-title">Physical Therapist</h3>
+            </div>
+            <div class="job-meta">
+              <span class="job-badge">Allied Health</span>
+              <span class="job-badge">Part-Time</span>
+              <span class="job-badge">Seattle, WA</span>
+            </div>
+            <p class="job-description">
+              Outpatient orthopedic PT position. State license required.
+              Flexible schedule, modern facility, supportive team environment.
+              Great opportunity for work-life balance.
+            </p>
+            <a href="contact.html#candidate-form" class="btn btn-primary"
+              >Apply Now</a
+            >
+          </div>
+
+          <!-- Job 4 -->
+          <div class="job-card">
+            <div class="job-header">
+              <h3 class="job-title">Travel Nurse - Med/Surg</h3>
+            </div>
+            <div class="job-meta">
+              <span class="job-badge">Nursing</span>
+              <span class="job-badge">Travel</span>
+              <span class="job-badge">Phoenix, AZ</span>
+            </div>
+            <p class="job-description">
+              13-week travel assignment. Housing stipend, competitive pay,
+              comprehensive benefits. 1 year recent Med/Surg experience
+              required. Join our travel nursing program!
+            </p>
+            <a href="contact.html#candidate-form" class="btn btn-primary"
+              >Apply Now</a
+            >
+          </div>
+
+          <!-- Job 5 -->
+          <div class="job-card">
+            <div class="job-header">
+              <h3 class="job-title">Radiologic Technologist</h3>
+            </div>
+            <div class="job-meta">
+              <span class="job-badge">Technician</span>
+              <span class="job-badge">Full-Time</span>
+              <span class="job-badge">Atlanta, GA</span>
+            </div>
+            <p class="job-description">
+              ARRT certified rad tech for busy imaging center. Digital X-ray and
+              fluoroscopy experience preferred. Day shift, excellent benefits,
+              tuition reimbursement available.
+            </p>
+            <a href="contact.html#candidate-form" class="btn btn-primary"
+              >Apply Now</a
+            >
+          </div>
+
+          <!-- Job 6 -->
+          <div class="job-card">
+            <div class="job-header">
+              <h3 class="job-title">Medical Billing Specialist</h3>
+            </div>
+            <div class="job-meta">
+              <span class="job-badge">Administrative</span>
+              <span class="job-badge">Full-Time</span>
+              <span class="job-badge">Remote</span>
+            </div>
+            <p class="job-description">
+              Remote medical billing position. 2+ years experience with ICD-10,
+              CPT coding. Proficiency in medical billing software required.
+              Competitive salary, work from home.
+            </p>
+            <a href="contact.html#candidate-form" class="btn btn-primary"
+              >Apply Now</a
+            >
+          </div>
+
+          <!-- Job 7 -->
+          <div class="job-card">
+            <div class="job-header">
+              <h3 class="job-title">Respiratory Therapist</h3>
+            </div>
+            <div class="job-meta">
+              <span class="job-badge">Allied Health</span>
+              <span class="job-badge">Per Diem</span>
+              <span class="job-badge">Miami, FL</span>
+            </div>
+            <p class="job-description">
+              Per diem RT for large medical center. Adult and neonatal
+              experience preferred. RRT credential required. Flexible
+              scheduling, competitive hourly rate.
+            </p>
+            <a href="contact.html#candidate-form" class="btn btn-primary"
+              >Apply Now</a
+            >
+          </div>
+
+          <!-- Job 8 -->
+          <div class="job-card">
+            <div class="job-header">
+              <h3 class="job-title">Nurse Practitioner - Family Medicine</h3>
+            </div>
+            <div class="job-meta">
+              <span class="job-badge">Nursing</span>
+              <span class="job-badge">Full-Time</span>
+              <span class="job-badge">Portland, OR</span>
+            </div>
+            <p class="job-description">
+              FNP for community health clinic. Current NP license and
+              certification required. Loan repayment program available.
+              Meaningful work serving underserved populations.
+            </p>
+            <a href="contact.html#candidate-form" class="btn btn-primary"
+              >Apply Now</a
+            >
+          </div>
+
+          <!-- Job 9 -->
+          <div class="job-card">
+            <div class="job-header">
+              <h3 class="job-title">Occupational Therapist</h3>
+            </div>
+            <div class="job-meta">
+              <span class="job-badge">Allied Health</span>
+              <span class="job-badge">Full-Time</span>
+              <span class="job-badge">Minneapolis, MN</span>
+            </div>
+            <p class="job-description">
+              Inpatient rehabilitation OT. Neuro and ortho experience preferred.
+              State license required. Sign-on bonus, relocation assistance,
+              excellent benefits package.
+            </p>
+            <a href="contact.html#candidate-form" class="btn btn-primary"
+              >Apply Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV Upload Section -->
+    <section class="section section-alt">
+      <div class="container" style="max-width: 800px">
+        <h2 style="text-align: center; margin-bottom: 1rem">
+          Don't See the Perfect Position?
+        </h2>
+        <p style="text-align: center; margin-bottom: 2rem; color: #6c757d">
+          Upload your CV and we'll match you with opportunities that fit your
+          skills and goals.
+        </p>
+        <div class="contact-form-section">
+          <h3 style="margin-bottom: 1rem">Submit Your CV</h3>
+          <form>
+            <div class="form-group">
+              <label for="cv-name" class="form-label">Full Name</label>
+              <input
+                type="text"
+                id="cv-name"
+                class="form-input"
+                required
+                aria-label="Your full name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="cv-email" class="form-label">Email Address</label>
+              <input
+                type="email"
+                id="cv-email"
+                class="form-input"
+                required
+                aria-label="Your email address"
+              />
+            </div>
+            <div class="form-group">
+              <label for="cv-phone" class="form-label">Phone Number</label>
+              <input
+                type="tel"
+                id="cv-phone"
+                class="form-input"
+                required
+                aria-label="Your phone number"
+              />
+            </div>
+            <div class="form-group">
+              <label for="cv-specialty" class="form-label"
+                >Primary Specialty</label
+              >
+              <select
+                id="cv-specialty"
+                class="form-select"
+                required
+                aria-label="Your primary specialty"
+              >
+                <option value="">Select Specialty</option>
+                <option value="nursing">Nursing</option>
+                <option value="physician">Physician</option>
+                <option value="allied">Allied Health</option>
+                <option value="technician">Technician</option>
+                <option value="administrative">Administrative</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="cv-file" class="form-label">Upload Resume/CV</label>
+              <input
+                type="file"
+                id="cv-file"
+                class="form-file"
+                accept=".pdf,.doc,.docx"
+                required
+                aria-label="Upload your resume or CV"
+              />
+              <p
+                style="font-size: 0.875rem; color: #6c757d; margin-top: 0.5rem"
+              >
+                Accepted formats: PDF, DOC, DOCX (Max 5MB)
+              </p>
+            </div>
+            <div class="form-group">
+              <label for="cv-notes" class="form-label"
+                >Additional Notes (Optional)</label
+              >
+              <textarea
+                id="cv-notes"
+                class="form-textarea"
+                placeholder="Tell us about your career goals and preferences..."
+                aria-label="Additional notes"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary btn-large"
+              style="width: 100%"
+            >
+              Submit CV
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>
+              <span style="color: #dc143c">Gens</span
+              ><span style="color: white">Healthcare</span>
+            </h3>
+            <p>
+              Excellence in healthcare staffing since 1995. Connecting talented
+              professionals with leading healthcare facilities nationwide.
+            </p>
+            <div class="social-icons">
+              <a href="#" class="social-icon" aria-label="Facebook">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-icon" aria-label="LinkedIn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-icon" aria-label="Twitter">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="positions.html">Open Positions</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <div class="footer-contact">
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"
+                  />
+                </svg>
+                1-800-EXCEL-01
+              </p>
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"
+                  />
+                </svg>
+                info@GensHealthcare.com
+              </p>
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+                  />
+                </svg>
+                123 Healthcare Blvd, Medical City, HC 12345
+              </p>
+            </div>
+            <h3 style="margin-top: 1rem">Newsletter</h3>
+            <form class="newsletter-form">
+              <input
+                type="email"
+                placeholder="Your email"
+                aria-label="Email for newsletter"
+                required
+              />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 GensHealthcare Healthcare Staffing. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
